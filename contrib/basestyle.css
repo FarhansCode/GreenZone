@@ -1,0 +1,58 @@
+/* This applies to all forms in the website */
+.forms input[type="text"] { width: 230px; border: 1px solid #3366FF; border-left: 4px solid #3366FF; }
+.forms select { border: 1px solid #3366FF; }
+.forms input[type="submit"] { background-color: #C9BE62; }
+.forms textarea { width: 230px; border: 1px solid #3366FF; border-left: 4px solid #3366FF; }
+.forms input[type="checkbox"] { background-color: red; border: 1px solid black; }
+
+/* Scheme of the top menu*/
+tr.mainMenu { background-color: #0E0046; border-spacing: 2px; color: #FFFFFF; font-family:"Arial", Sans-serif }
+tr.mainMenu a:link { color: #FFFFFF; }
+tr.mainMenu a:visited { color: #FFFFFF; }
+tr.mainMenu a:hover { color: #DDDDDD; }
+tr.mainMenu a:active { background-color: #CDCDCD; }
+
+
+/* Scheme of the bottom menu */
+tr.subMenu { background-color: #183394; color: #CCCCCC; font-family:"Arial", Sans-serif }
+tr.subMenu a:link { color: #FFFFFF; }
+tr.subMenu a:visited { color: #FFFFFF; }
+tr.subMenu a:hover { color: #DDDDDD; }
+tr.subMenu a:active { background-color: #CDCDCD; }
+
+
+/* Scheme of Lists  */
+.listHeader { background-color: #567EB9; color: #FFFFFF; font-family:"Arial", Sans-serif}
+.listHeader a:link { color: #FFFFFF; }
+.listHeader a:visited { color: #FFFFFF; }
+.listHeader a:hover { color: #DDDDDD; }
+.listHeader a:active { background-color: #CDCDCD; }
+
+/* Scheme of odd rows  */
+.oddrow { background-color: #F0F0F0; }
+.oddrow:hover { background-color: #AAAAAA; }
+
+/* Scheme of even rows */
+.evenrow { background-color: #E0E0E0; }
+.evenrow:hover { background-color: #AAAAAA; }
+
+.selectrow { background-color: #FCBDBA; }
+
+/* Style of the input boxs for the login page */
+#loginInput { border: 1px solid #006; background: #ffc; }
+#loginInput:hover { border: 1px solid #f00; background: #ff6; }
+
+input[type="Submit"]:active#loginButton { background: #33CC33; }
+input[type="Submit"]:hover#loginButton { background: green; }
+
+.loginField { border: 1px solid #781351; width: 20em }
+.loginLegend {color: #fff; background: #ffa20c; border: 1px solid #781351; padding: 2px 6px }
+
+
+/* Styles for the logo */
+.layoutLogo { width:650px; text-align:left; vertical-align:top;}
+.layoutLogin { width:400px; text-align:right; vertical-align:top;}
+.layoutMain { height:400px; width:1000px; vertical-align: top; text-align: left; }
+.layoutBottom { text-align: right; }
+
+body { background-color:#FFFFFF; font-size: 10pt; }
